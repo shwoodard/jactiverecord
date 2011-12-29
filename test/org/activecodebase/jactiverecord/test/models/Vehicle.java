@@ -1,13 +1,13 @@
 package org.activecodebase.jactiverecord.test.models;
 
-import java.util.Map;
-
-import org.activecodebase.jactiverecord.main.Base;
+import org.activecodebase.jactiverecord.main.JActiveRecord;
+import org.activecodebase.jactiverecord.main.TableName;
 
 /**
  * @author Sam Woodard
  *
  */
-public class Vehicle extends Base {
+@TableName("vehicles")
+public class Vehicle extends JActiveRecord {
 	
 }
